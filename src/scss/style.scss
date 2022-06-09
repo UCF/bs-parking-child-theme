@@ -22,3 +22,41 @@
 
 // Add/import your theme's custom styles here
 // ...
+.sections-menu-wrapper {
+  .navbar {
+    div {
+      .navbar-toggler:before {
+        content: 'Purchase Permit/Pay Citation';
+        font-size: .65rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+#virtual-pricing-section {
+  span {
+    ol {
+      li::marker {
+        text-shadow: 2px 2px 0 #fff;
+        font-weight: 600;
+        font-size: 1.75rem !important;
+      }
+      li {
+        font-weight: 500;
+        small {
+          font-weight: 500;
+        }
+        ul {
+          li {
+            small {
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
