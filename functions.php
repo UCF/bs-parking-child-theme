@@ -1,5 +1,5 @@
 <?php
-namespace parking\Theme;
+//namespace parking\Theme;
 
 define( 'PARKING_THEME_DIR', trailingslashit( get_stylesheet_directory() ) );
 
