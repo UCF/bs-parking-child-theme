@@ -2,7 +2,7 @@
 /**
  * Handle all theme configuration here
  **/
-namespace parking\Theme\Includes\Config;
+//namespace parking\Theme\Includes\Config;
 
 
 define( 'PARKING_THEME_URL', get_stylesheet_directory_uri() );
